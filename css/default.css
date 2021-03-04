@@ -464,7 +464,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #373233;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -474,6 +474,7 @@ input[type="button"] {
    border: none;
    cursor: pointer;
    height: auto;
+   margin-left: 240px;
 
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
