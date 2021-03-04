@@ -147,7 +147,7 @@ header .scrolldown a:hover { color: #b01111; }
 .opaque { background-color: #333; }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > a.mobile-btn { display: none;  color: red;}
 
 ul#nav {
    min-height: 48px;
@@ -448,7 +448,7 @@ ul#nav li.current a { color: red; }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   position: absolute;
+   position: relative;
    left: 0;
    top: 0;
    width: 100%;
@@ -795,7 +795,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #b01111;; }
+#contact a, #contact a:visited  { background-color: #636363;; color:black; margin-left: 300px; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -849,8 +849,8 @@ call-to-action .button {
 	border: 0;
 	outline: none;
    font-size: 15px;
-   line-height: 24px;
-   width: 65%;
+   line-height: 20px;
+   width: 40%;
 }
 #contact input:focus,
 #contact textarea:focus,

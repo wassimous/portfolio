@@ -10,6 +10,8 @@
 	<title>Wassimos</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
+  
+
 
    <!-- Mobile Specific Metas
    ================================================== -->
@@ -28,12 +30,18 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" >
  <style>
   
     img {
 border-radius: 100%;
 width: 300px;
+}
+
+.img1 {
+  display: block  !important;
+  margin-left: auto !important;
+  margin-right: auto !;
 }
 h1{
    font-family: Agustina !important;
@@ -62,6 +70,16 @@ label {
    height: 15% !important;
    width: 15% !important;
 }
+
+#a.mobile-btn{
+   background-color: red i !important;
+}
+.submit{
+   margin-left: 900px !important;
+   color :black !important;
+
+}
+
  </style>
 </head>
 
@@ -174,7 +192,7 @@ label {
                      
                      <source src="./videos/MosaiqueFm.mp4" type="video/mp4">
                    </video> -->
-                   <p class="info" style="color:red;">Organizing charitable work</p>
+                   <p class="info" style="color:red; margin-right: 200px;">Organizing charitable work</p>
                </div>
 
             </div> <!-- item end -->
@@ -184,7 +202,9 @@ label {
                <div class="twelve columns">
                 
                   <iframe width="400" height="250" src="https://www.youtube.com/embed/ZslHT7W6nc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   <p class="info" style="color:red;">Commentary en FreeFire Matches </p>
+
+                   <p class="info" style="color:red; margin-right: 200px;">Commentary en FreeFire Matches </p>
+
                </div>
 
             </div> <!-- item end -->
@@ -193,7 +213,9 @@ label {
                <div class="twelve columns">
                  
                   <iframe width="400" height="250" src="https://www.youtube.com/embed/d0itYHql6LY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   <p class="info" style="color:red;">Has one of the best FreeFire Accounts </p>
+
+                   <p class="info" style="color:red ;margin-right: 200px";>Has one of the best FreeFire Accounts </p>
+
                </div>
 
             </div> <!-- item end -->
@@ -202,7 +224,9 @@ label {
                <div class="twelve columns">
                  
                   <iframe width="400" height="250" src="https://www.youtube.com/embed/9JlRKVX7DAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   <p class="info" style="color:red;">Plays with the best players of FreeFire</p>
+
+                   <p class="info" style="color:red; margin-right: 200px;">Plays with the best players of FreeFire</p>
+
                </div>
             
 
@@ -212,7 +236,9 @@ label {
             <div class="twelve columns">
               
                <iframe width="400" height="250" src="https://www.youtube.com/embed/wLMugZOA8ao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="info" style="color:red;">Interview with other content creators </p>
+
+                <p class="info" style="color:red; margin-right: 200px;">Interview with other content creators </p>
+
             </div>
          
 
@@ -232,7 +258,7 @@ label {
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/moton.jpg">
+                        <img id ="img1" alt="" src="images/portfolio/moton.jpg"  />
                         <div class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>Charitable work</h5>
@@ -249,7 +275,7 @@ label {
                   <div class="item-wrap">
 
                      <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/booah.jpg">
+                        <img id ="img1" alt="" src="images/portfolio/booah.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
                               <h5>Gamer</h5>
@@ -266,7 +292,7 @@ label {
                   <div class="item-wrap">
 
                      <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/silver.jpg">
+                        <img  id ="img1" alt="" src="images/portfolio/silver.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
                               <h5>Silver Creator Award</h5>
@@ -283,7 +309,7 @@ label {
                   <div class="item-wrap">
 
                      <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/gold.jpg">
+                        <img  id ="img1" alt="" src="images/portfolio/gold.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
           					     <h5>Gold Creator Award</h5>
@@ -519,7 +545,9 @@ label {
             <div class="eight columns">
 
                <!-- form -->
-               <form action="https://postmail.invotes.com/send" method="post" id="contactForm" name="contactForm">
+
+               <!-- <form action="https://postmail.invotes.com/send" method="post" id="contactForm" name="contactForm">
+
 					<fieldset>
 
                   <div>
@@ -543,22 +571,29 @@ label {
                   </div>
 
                   <div>
-                     <input type="hidden" name="access_token" value="obqvlma7aoylit0cp79zs61b" />
 
-    <input type="hidden" name="success_url"
-      value=".?message=Email+Successfully+Sent%21&isError=0" />
-    <input type="hidden" name="error_url"
-      value=".?message=Email+could+not+be+sent.&isError=1" />
+                     <button id="submit"  href="mailto:someone@yoursite.com" target="_blank" rel="noopener noreferrer">Submit</button>
 
-    <input id="submit_form" type="submit" value="Send" />
+
                      <!-- <button class="submit" "onClick="window.location.reload();"" window.open('mailto:diebwasim@gmail.com')>Submit</button> -->
                      <!-- <span id="image-loader"> -->
                         <!-- <img alt="" src="images/loader.gif"> -->
                      <!-- </span> -->
-                  </div>
+               
 
-					</fieldset>
-				   </form> <!-- Form End -->
+					
+				   <!-- </form> Form End -->
+               <form action="https://getform.io/f/8ff21907-ed9b-43d9-893b-7005486c5c6e" method="POST" id="contactForm" name="contactForm">
+                  <label for="contactName">Name <span class="required">*</span></label>
+                  <input type="text" name="Name" id="contactName"  required>
+                  <label for="contactEmail">Email <span class="required">*</span></label>
+                  <input type="email" name="email" id="contactEmail" required>
+                  <label for="contactMessage">Message <span class="required">*</span></label>
+                  <input type="text" name="message" id="contactMessage"  required>
+                 
+                  <button id="submit" type="submit">Send</button>
+                
+                </form>
 
 
 
@@ -576,7 +611,6 @@ label {
 
     <input id="submit_form" type="submit" value="Send" />
 </form -->
-
 
 
 <!-- contact-warning -->
